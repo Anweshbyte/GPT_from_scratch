@@ -1,6 +1,7 @@
 # 🚀 Transformer-Based Model Training & Evaluation
 
-![Alt text](assets/image.png)
+![alt text](https://github.com/Anweshbyte/GPT_from_scratch/blob/7c073c0a5c2daa64fb10f0d3d5df7031499617eb/assets/img.png)
+
 
 This repository provides a **production-ready** implementation of a transformer-based model for text generation.  
 It includes **training, evaluation, and visualization** functionalities, making it easy to fine-tune and test models.
