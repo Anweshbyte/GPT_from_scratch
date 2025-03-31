@@ -20,21 +20,26 @@ It includes **training, evaluation, and visualization** functionalities, making 
 📦 project-root
 ├── 📂 data              # Dataset files or scripts to download data
 │   ├── dataset.py       # Dataset handling and preprocessing
-│   ├── sample_data/     # Sample datasets for testing
 │
-├── 📂 models            # Model definitions
+├── 📂 flask_got_webapp            # Model definitions
 │   ├── gpt_model.py     # Transformer-based GPT model implementation
+│   ├── app.py     # Flask based WebAPP
+│   ├── 📂 templates
+│       ├── index.html
 │
-├── 📂 training          # Training and evaluation scripts
-│   ├── train.py         # Main script for training the model
-│   ├── evaluate.py      # Evaluation and inference script
+├── 📂 models          # Training and evaluation scripts
+│   ├── attention.py         # Multi Head and Causal Self Attention implementation
+│   ├── gpt.py      # Full LLM Pre-training block
+
+├── 📂 training             # Utility functions
+│   ├── generation.py       # Helper functions for tokenization, etc.
+│   ├── losses.py           # Cross entropy loss implementation
+│   ├── train.py       # training block
 │
-├── 📂 utils             # Utility functions
-│   ├── helpers.py       # Helper functions for tokenization, etc.
-│
-├── 📂 outputs           # Generated outputs (e.g., logs, sample texts)
+├── 📂 utils           # Generated outputs (e.g., logs, sample texts)
 │
 ├── requirements.txt     # Required dependencies
+├── main.py              # main python file
 ├── README.md            # Project documentation
 ├── config.yaml          # Model and training configurations
 ```
