@@ -1,5 +1,7 @@
 # 🚀 Transformer-Based Model Training & Evaluation
 
+![Alt text](assets/image.png)
+
 This repository provides a **production-ready** implementation of a transformer-based model for text generation.  
 It includes **training, evaluation, and visualization** functionalities, making it easy to fine-tune and test models.
 
